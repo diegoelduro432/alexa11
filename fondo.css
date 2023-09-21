@@ -1,0 +1,43 @@
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-image: url('fondo.jpg'); /* Reemplaza 'fondo.jpg' con la ruta de tu imagen de fondo */
+        background-size: cover; /* Esto ajustará la imagen al tamaño de la ventana del navegador */
+        background-repeat: no-repeat; /* Evita que la imagen de fondo se repita */
+        background-attachment: fixed; /* Fija la imagen de fondo para que no se desplace con el contenido */
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+    }
+
+    .contenedor {
+        text-align: center;
+        background-color: rgba(255, 255, 255, 0.9); /* Cambia el color de fondo si es necesario */
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    }
+
+    h1 {
+        color: #ff6b6b;
+    }
+
+    p {
+        font-size: 18px;
+        margin-bottom: 20px;
+    }
+
+    #imagen-novia {
+        max-width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+
+    /* Puedes personalizar los estilos a tu gusto */
+</style>
+
+
+
